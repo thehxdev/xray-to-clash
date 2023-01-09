@@ -111,7 +111,7 @@ if __name__ == "__main__":
 
     x = XrayToClash(xray_config_path=args.config,
                     template_file_path=args.template,
-                    where_to_save="~/clash_confs")
+                    where_to_save="/usr/local/clashConfs")
 
     x.init_new_clash_config_from_json()
 
